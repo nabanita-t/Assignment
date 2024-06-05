@@ -52,13 +52,6 @@ class ApplicationMessages:
     LOGIN_FAIL = "Login Failed"
     AVAILABILITY_EXISTS = "Either availability already exists or you entered same values in start and end time!"
     USER_ALREADY_EXIST = "User with this email already Exist!"
-    USER_ALREADY_EXIST_DESIGNER = "User with this email already Exist as Designer!"
-    USER_ALREADY_EXIST_CUSTOMER = "User with this email already Exist as Customer !"
-    USER_ALREADY_EXIST_ADMIN = "User with this email already Exist as Super Admin!"
-    USER_ALREADY_EXIST_SUPPLIER = "User with this email already Exist as Supplier!"
-    USER_ALREADY_EXIST_MANUFACTURER = (
-        "User with this email already Exist as Manufacturer!"
-    )
     USER_EXIST_AS = "User with this email already Exist as {}!"
     REGISTERED_WITH_OTHER_DES = "Already registered with another designer"
     EMAIL_REGISTERED_WITH_OTHER_DES = "{} registered with another designer"
