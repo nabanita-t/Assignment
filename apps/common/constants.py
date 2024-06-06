@@ -47,11 +47,16 @@ class ApplicationMessages:
 
     # USER Login and Signup
     USER_NOT_EXISTS = "User Does Not Exist"
+    REQUEST_SENT = "Friend Request sent"
+    REQUEST_N_SENT = "Friend Request could not be sent"
+    PROFILE_N_EXIST = "Complete your profile first"
+    REQUEST_EXIST = "You cannot send more than 3 requests within 1 minute"
     EMAIL_NOT_EXISTS = "Email Id is Incorrect !"
     USER_N_EMAIL_EXISTS = "User with this Email Does not Exist"
     LOGIN_FAIL = "Login Failed"
     AVAILABILITY_EXISTS = "Either availability already exists or you entered same values in start and end time!"
     USER_ALREADY_EXIST = "User with this email already Exist!"
+    REQUEST_ALREADY_EXIST = "You are already friends!"
     USER_EXIST_AS = "User with this email already Exist as {}!"
     REGISTERED_WITH_OTHER_DES = "Already registered with another designer"
     EMAIL_REGISTERED_WITH_OTHER_DES = "{} registered with another designer"
@@ -88,8 +93,6 @@ class ApplicationMessages:
     SUB_ADMIN_INVITE = "Sub Admin Invitation"
     INVALID_ADDRESS = "Invalid Address Provided"
 
-    REQUEST_ACCEPTED = "Congratulations, Your request for designer has been Accepted !"
-    REQUEST_REJECTED = "Your request for designer has been Rejected !"
     REQUEST_REJECTED_LOGIN = (
         "Your request for designer has been Rejected, Please Contact Admin"
     )

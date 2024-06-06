@@ -56,4 +56,5 @@ class FriendRequest(BaseModel):
     class Meta:
         verbose_name = "Friend Request"
         verbose_name_plural = "Friend Requests"
+        unique_together = ("from_user", "to_user")
         ordering = ['-created_at']
