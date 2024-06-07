@@ -109,7 +109,7 @@ class FriendRequestDetailsAPIView(generics.GenericAPIView):
 
 
 class AllUserAPIView(generics.GenericAPIView):
-    """Send Friend Request"""
+    """All user listing"""
 
     serializer_class = social_network_serializer.FriendRequestSendSerializer
     permission_classes = (permissions.IsUser,)
